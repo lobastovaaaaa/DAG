@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: hse.software_design.OriginTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in hse.software_design.OriginTest
+testCloneValues  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+

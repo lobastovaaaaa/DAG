@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: hse.software_design.Coord2DTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.117 s <<< FAILURE! - in hse.software_design.Coord2DTest
+testEqualsBoth  Time elapsed: 0.014 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at hse.software_design.Coord2DTest.testEqualsBoth(Coord2DTest.java:42)
+
