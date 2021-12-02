@@ -5,7 +5,6 @@ import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class BoundBoxTest {
-
     private Origin testOrigin;
     private Coord2D testCoord2D;
     private Point testPoint;
@@ -120,7 +119,6 @@ class BoundBoxTest {
         assertTrue(testBounds.getMax().equalsByValues(localMax));
     }
 
-
     @Test
     void equalsByValuesTrue() throws DAGConstraintException {
         testOrigin = new Origin(new Coord2D(-2, 2));
@@ -165,7 +163,6 @@ class BoundBoxTest {
         BoundBox testBounds2 = testOrigin2.getBounds();
         assertFalse(testBounds.equalsByValues(testBounds2));
     }
-
 
     @Test
     void getBoundsNull() {

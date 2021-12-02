@@ -120,9 +120,9 @@ public class Origin extends Point implements Cloneable{
     }
 
     /**
-     * Compares 2 Origins instances based on their coordinates
+     * Compares 2 Origin instances by checking their location and structure equivalence
      * @param newOrigin: instance of Origin class to compare with current (this) origin
-     * @return boolean value (true if coordinates of their mathematical points are equal; else false)
+     * @return boolean value (true if fully equal; else false)
      */
     public boolean equalsByValues(Origin newOrigin) {
         return super.equalsByValues(newOrigin);

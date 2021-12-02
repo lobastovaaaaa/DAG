@@ -1,7 +1,6 @@
 package hse.software_design;
 
 import org.junit.jupiter.api.*;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class Coord2DTest {

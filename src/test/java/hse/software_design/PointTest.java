@@ -55,8 +55,6 @@ class PointTest {
     void getPositionArray() {
         testCoord2D = new Coord2D(2, 5);
         testPoint = new Point(testCoord2D);
-
-
         assertTrue(testPoint.getPositionArray()[0] == 2 && testPoint.getPositionArray()[1] == 5);
     }
 

@@ -46,4 +46,13 @@ public class Space implements Cloneable {
     public Space clone() {
         return new Space(root.clone());
     }
+
+    /**
+     * Compares 2 Space instances by checking their Origin location and structure equivalence
+     * @param newSpace: instance of Space class to compare with current (this) Space
+     * @return boolean value (true if fully equal; else false)
+     */
+    public boolean equalsByValues(Space newSpace) {
+        return this.getRoot().equalsByValues(newSpace.getRoot());
+    }
 }
