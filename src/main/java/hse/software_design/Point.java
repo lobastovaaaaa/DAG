@@ -50,8 +50,8 @@ public class Point implements Cloneable {
     }
 
     /**
-     * Makes a deep copy of a current (this) Point instance
-     * @return instance of a Point class with equal position in a local coordinate system
+     * Makes a deep copy of current (this) Point instance
+     * @return instance of Point class with equal position in a local coordinate system
      */
     public Point clone() {
         return new Point(this.getPosition().clone());

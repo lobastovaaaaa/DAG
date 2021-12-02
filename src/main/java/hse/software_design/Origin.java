@@ -106,9 +106,9 @@ public class Origin extends Point implements Cloneable{
     }
 
     /**
-     * Makes a deep copy of a current (this) Origin instance (with children set of this Origin children retaining
+     * Makes a deep copy of current (this) Origin instance (with children set of this Origin children retaining
      * hierarchies of previous levels
-     * @return instance of an Origin class with equal position in a local coordinate system
+     * @return instance of Origin class with equal position in a local coordinate system
      */
     public Origin clone() {
         Origin copy = new Origin(this.getPosition().clone());

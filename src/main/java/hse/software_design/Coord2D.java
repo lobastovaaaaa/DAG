@@ -29,8 +29,8 @@ public final class Coord2D implements Cloneable {
     }
 
     /**
-     * Makes a deep copy of a current (this) Coord2D instance
-     * @return instance of a Coord2D class with equal coordinates
+     * Makes a deep copy of current (this) Coord2D instance
+     * @return instance of Coord2D class with equal coordinates
      */
     public Coord2D clone() {
         return new Coord2D(x, y);
